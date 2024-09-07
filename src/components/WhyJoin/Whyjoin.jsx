@@ -112,15 +112,15 @@ function Whyjoin() {
             <div className="mb-8 md:mb-0 text-center px-8">  {/* Added px-8 for horizontal padding */}
               <h1 className="font-bold my-4 py-2 text-5xl text-blue-800">Lifestyle</h1>
               <div className="text-center font-bold my-4 py-2 text-xl text-gray-700 space-y-2">
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
-                <p>d</p>
-                <p>e</p>
-                <p>f</p>
-                <p>g</p>
-                <p>h</p>
-                <p>i</p>
+                <p>Nutritional Guidance</p>
+                <p>Group Classes</p>
+                <p>Personal Training</p>
+                <p>Massage Therapy</p>
+                <p>Mindfulness Programs</p>
+                <p>Locker Rooms</p>
+                <p>Spa Services</p>
+                <p>Health Monitoring</p>
+                <p>Smoothie Bar</p>
               </div>
             </div>
 
@@ -128,22 +128,24 @@ function Whyjoin() {
             <div className="mb-8 md:mb-0 text-center px-8">  {/* Added px-8 for horizontal padding */}
               <h1 className="font-bold my-4 py-2 text-5xl text-blue-800">Services</h1>
               <div className="text-center font-bold my-4 py-2 text-xl text-gray-700 space-y-2">
-                <p>a</p>
-                <p>b</p>
-                <p>c</p>
-                <p>d</p>
-                <p>e</p>
-                <p>f</p>
-                <p>g</p>
-                <p>h</p>
-                <p>i</p>
+                <p>24/7 Access</p>
+                <p>Childcare Services</p>
+                <p>Member Events</p>
+                <p>Free Fitness Assessments</p>
+                <p>Online Coaching</p>
+                <p>Corporate Wellness</p>
+                <p>Free Wi-Fi</p>
+                <p>Parking</p>
+                <p>Community Support</p>
               </div>
             </div>
           </div>
         </section>
       </div>
 
-
+      <div className='items-center justify-center text-center mb-4 mt-8'>
+        <button className='bg-blue-800 text-white py-4 px-5 text-2xl rounded-3xl hover:scale-110 transition-transform duration-300'>Enquire About Gym Membership Now</button>
+      </div>
 
 
     </div>
