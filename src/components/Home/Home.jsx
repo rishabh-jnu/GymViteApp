@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl">
+        <div className="mx-auto w-full max-w-full">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
@@ -66,6 +66,17 @@ export default function Home() {
                     <img className="w-full" src="/assets/homepic2.jpg" alt="image1" />
                 </div>
             </aside>
+
+            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
+                <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
+                   
+                </div>
+
+                <div className="absolute inset-0 w-full sm:pt-1 pt-12 h-full">
+                    <img className="w-full" src="/assets/homepic3.png" alt="image1" />
+                </div>
+            </aside>
+
 
             
 
