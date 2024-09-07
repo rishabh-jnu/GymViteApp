@@ -25,7 +25,7 @@ function Whyjoin() {
       </aside>
       <div>
         <div className="flex-1 items-center justify-center text-center space-y-8">
-          <h1 className="font-bold text-3xl sm:text-3xl py-2 m-3">
+          <h1 className="font-bold text-2xl sm:text-2xl py-2 m-3">
             WHY CHOOSE RAINBOW FITNESS GYM MEMBERSHIP
           </h1>
         </div>
@@ -75,6 +75,76 @@ function Whyjoin() {
           </div>
         </section>
       </div>
+
+      <div>
+        <div className='py-3 my-3'>
+          <hr className="w-1/2 mx-auto border-t-1 border-black" />
+        </div>
+      </div>
+
+      <div>
+        <div className="flex items-center justify-center text-center space-y-8">
+          <h1 className="font-bold text-4xl sm:text-3xl py-2 m-3">
+            RAINBOW Fitness Gym Membership Offers
+          </h1>
+        </div>
+
+        <section className="">
+          <div className="flex flex-col sm:flex-col md:flex-row md:space-x-16 justify-center">
+            {/* Equipment Section */}
+            <div className="mb-8 md:mb-0 text-center px-8">  {/* Added px-8 for horizontal padding */}
+              <h1 className="font-bold my-4 py-2 text-5xl text-blue-800">Equipment</h1>
+              <div className="text-center font-bold my-4 py-2 text-xl text-gray-700 space-y-2">
+                <p> Treadmills</p>
+                <p>Exercise Cycles</p>
+                <p>Stair Climbers</p>
+                <p>Rowing Machines</p>
+                <p>Free Weights</p>
+                <p>Synergy 360 Systems</p>
+                <p>Cable Crossovers</p>
+                <p>Kettlebells</p>
+                <p>Amt Crosstrainers</p>
+              </div>
+            </div>
+
+
+            {/* Lifestyle Section */}
+            <div className="mb-8 md:mb-0 text-center px-8">  {/* Added px-8 for horizontal padding */}
+              <h1 className="font-bold my-4 py-2 text-5xl text-blue-800">Lifestyle</h1>
+              <div className="text-center font-bold my-4 py-2 text-xl text-gray-700 space-y-2">
+                <p>a</p>
+                <p>b</p>
+                <p>c</p>
+                <p>d</p>
+                <p>e</p>
+                <p>f</p>
+                <p>g</p>
+                <p>h</p>
+                <p>i</p>
+              </div>
+            </div>
+
+            {/* Services Section */}
+            <div className="mb-8 md:mb-0 text-center px-8">  {/* Added px-8 for horizontal padding */}
+              <h1 className="font-bold my-4 py-2 text-5xl text-blue-800">Services</h1>
+              <div className="text-center font-bold my-4 py-2 text-xl text-gray-700 space-y-2">
+                <p>a</p>
+                <p>b</p>
+                <p>c</p>
+                <p>d</p>
+                <p>e</p>
+                <p>f</p>
+                <p>g</p>
+                <p>h</p>
+                <p>i</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+
 
     </div>
   );
