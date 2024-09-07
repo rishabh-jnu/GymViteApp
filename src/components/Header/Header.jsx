@@ -49,7 +49,7 @@ export default function Header() {
 
                             <li>
                                 <NavLink
-                                to="/Github"
+                                to="/whyjoin"
                                     className={({isActive}) =>
                                         `block py-2 pr-4 pl-3 duration-200 
                                         ${isActive ? "text-orange-700" :
@@ -63,7 +63,7 @@ export default function Header() {
 
                             <li>
                                 <NavLink
-                                to="/Github"
+                                to="/training"
                                     className={({isActive}) =>
                                         `block py-2 pr-4 pl-3 duration-200 
                                         ${isActive ? "text-orange-700" :
