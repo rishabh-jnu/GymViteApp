@@ -8,6 +8,8 @@ import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import Whyjoin from './components/WhyJoin/Whyjoin.jsx'
 import Trainig from './components/Training/Trainig.jsx'
+import Contact from './components/Contact/Contact.jsx'
+import Blog from './components/Blog/Blog.jsx'
 
 
 
@@ -18,6 +20,8 @@ const router = createBrowserRouter(
       <Route path='About' element={<About/>} />
       <Route path='WhyJoin' element={<Whyjoin/>} />
       <Route path='Training' element={<Trainig/>} />
+      <Route path='Blog' element={<Blog/>} />
+      <Route path='Contact' element={<Contact/>} />
     </Route>
   )
 )
