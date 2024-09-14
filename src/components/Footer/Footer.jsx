@@ -7,13 +7,16 @@ export default function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <Link to="/" className="flex items-center">
-                            <img
-                                src="assets/gymlogo2.png"
-                                className="mr-3 h-12"
-                                alt="Logo"
-                            />
-                        </Link>
+                    <div className='flex items-center'>
+                    <Link to="/" className="flex items-center">
+                        <img
+                            src="/assets/gymlogo.png"
+                            className="mr-3 h-12 rounded-full"
+                            alt="Logo"
+                        />
+                    </Link>
+                    <span className='text-violet-950 text-2xl font-bold italic'>Rainbow Gym Center</span>
+                    </div>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
@@ -52,8 +55,8 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-white uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/blog" className="hover:underline">
-                                        Blog
+                                    <Link to="/schedule" className="hover:underline">
+                                        Schedule
                                     </Link>
                                 </li>
                                 <li>
@@ -68,7 +71,7 @@ export default function Footer() {
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
-                        © 2024
+                        © 2018
                         {/* <a href="https://hiteshchoudhary.com/" className="hover:underline"> */}
                          RainbowGymCenter
                         {/* </a> */}

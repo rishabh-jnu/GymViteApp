@@ -13,6 +13,7 @@ export default function Header() {
         <header className="shadow sticky z-50 top-0">
             <nav className="bg-gray-600/95 border-white px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                    <div className='flex items-center'>
                     <Link to="/" className="flex items-center">
                         <img
                             src="/assets/gymlogo.png"
@@ -20,6 +21,9 @@ export default function Header() {
                             alt="Logo"
                         />
                     </Link>
+                    <span className='text-violet-950 text-2xl font-bold italic'>Rainbow Gym Center</span>
+                    </div>
+                    
 
                     {/* Burger Menu Button for small to medium screens */}
                     <div className="lg:hidden flex items-center">
@@ -34,7 +38,7 @@ export default function Header() {
                     {/* Menu for larger screens (lg and above) */}
                     <div className="hidden justify-between items-center w-full lg:flex lg:w-auto">
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                            {['/', '/about', '/whyjoin', '/training', '/blog', '/contact'].map((path, idx) => (
+                            {['/', '/about', '/whyjoin', '/training', '/schedule', '/contact'].map((path, idx) => (
                                 <li key={idx}>
                                     <NavLink
                                         to={path}
@@ -78,7 +82,7 @@ export default function Header() {
                         } lg:hidden w-full`}
                     >
                         <ul className="flex flex-col items-center mt-4 font-medium py-2">
-                            {['/', '/about', '/whyjoin', '/training', '/blog', '/contact'].map((path, idx) => (
+                            {['/', '/about', '/whyjoin', '/training', '/schedule', '/contact'].map((path, idx) => (
                                 <li key={idx} className="w-full text-left">
                                     <NavLink
                                         to={path}
