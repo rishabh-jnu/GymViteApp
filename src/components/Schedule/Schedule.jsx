@@ -4,7 +4,7 @@ function Schedule() {
   const timings = [
     {
       shift: 'Morning',
-      time: '6:00 AM - 12:00 PM',
+      time: '4:00 AM - 9:00 AM',
       description: 'Perfect for early birds who like to kickstart their day with a workout!',
     },
     {
@@ -23,11 +23,11 @@ function Schedule() {
         {timings.map((timing, index) => (
           <div
             key={index}
-            className="bg-gray-100 p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow duration-200"
+            className="bg-gray-100 hover:bg-blue-950 hover:text-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow duration-200"
           >
             <h3 className="text-xl sm:text-2xl font-semibold mb-2">{timing.shift} Shift</h3>
             <p className="text-base sm:text-lg text-blue-600 mb-4">{timing.time}</p>
-            <p className="text-sm sm:text-base text-gray-700">{timing.description}</p>
+            <p className="text-sm sm:text-base text-gray-500">{timing.description}</p>
           </div>
         ))}
       </div>

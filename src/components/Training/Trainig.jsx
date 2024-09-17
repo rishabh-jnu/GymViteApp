@@ -19,27 +19,27 @@ function Trainig() {
 
       <div className='flex flex-col md:flex-row text-white mx-10 mb-10 space-y-6 md:space-y-0 md:space-x-6'>
         {/* Card 1 */}
-        <div className='flex flex-col items-center text-center'>
-          <img className='h-20 w-16' src="assets/whyjoin1.jpg" alt="training.jpg" />
-          <span className='bg-blue-900 p-4 rounded-lg'>
+        <div className='flex flex-col items-center text-center bg-white hover:bg-blue-950 hover:text-white  shadow-lg rounded-lg p-6'>
+          <img className='' src="assets/whyjoin1.jpg" alt="training.jpg" />
+          <span className='bg-blue-900 p-4'>
             <h1 className='text-2xl font-bold'>Fitness Consultation</h1>
             <p>Gain confidence for your fitness journey with our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan.</p>
           </span>
         </div>
 
         {/* Card 2 */}
-        <div className='flex flex-col items-center text-center'>
-          <img className='h-20 w-16' src="assets/whyjoin1.jpg" alt="training.jpg" />
-          <span className='bg-blue-900 p-4 rounded-lg'>
+        <div className='flex flex-col items-center text-center  bg-white hover:bg-blue-950 hover:text-white  shadow-lg rounded-lg p-6'>
+          <img className='' src="assets/whyjoin1.jpg" alt="training.jpg" />
+          <span className='bg-blue-900 p-4'>
             <h1 className='text-2xl font-bold'>Fitness Consultation</h1>
             <p>Gain confidence for your fitness journey with our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan.</p>
           </span>
         </div>
 
         {/* Card 3 */}
-        <div className='flex flex-col items-center text-center'>
-          <img className='h-20 w-16' src="assets/whyjoin1.jpg" alt="training.jpg" />
-          <span className='bg-blue-900 p-4 rounded-lg'>
+        <div className='flex flex-col items-center text-center bg-white hover:bg-blue-950 hover:text-white  shadow-lg rounded-lg p-6'>
+          <img className='' src="assets/whyjoin1.jpg" alt="training.jpg" />
+          <span className='bg-blue-900 p-4'>
             <h1 className='text-2xl font-bold'>Fitness Consultation</h1>
             <p>Gain confidence for your fitness journey with our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan.</p>
           </span>

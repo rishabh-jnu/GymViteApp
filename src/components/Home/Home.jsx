@@ -34,21 +34,39 @@ export default function Home() {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-      };
+        responsive: [
+            {
+                breakpoint: 1024, // Tablet and below
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 640, // Mobile devices
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    };
 
     return (
         <div className="mx-auto w-full max-w-full">
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
+            {/* First Image Section */}
+            <aside className="relative overflow-hidden text-black sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto"></div>
                 </div>
 
-                <div className="absolute inset-0 w-full sm:pt-1 h-full ">
+                <div className="absolute inset-0 w-full sm:pt-1 h-full">
                     <img className="w-full" src="/assets/homepic1st.jpg" alt="image1" />
                 </div>
             </aside>
 
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
+            {/* YouTube Section */}
+            <aside className="relative overflow-hidden text-black sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="flex flex-col sm:space-y-8 sm:flex-col lg:flex-row lg:space-x-8">
                         <div className="flex-1 w-full sm:max-w-full lg:max-w-md rounded-lg shadow-lg overflow-hidden">
@@ -96,36 +114,35 @@ export default function Home() {
                 </div>
             </aside>
 
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-    <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
-        {/* Container for centering slider */}
-        <div className="absolute inset-0 pt-16 mt-11 flex justify-center items-center">
-            <div className="w-3/4">
-                <Slider {...settings}>
-                    {data.map((d, index) => (
-                        <div key={index} className="bg-white h-[450px] text-black rounded-xl shadow-lg my-8">
-                            <div className="rounded-t-xl h-56 bg-indigo-500 flex justify-center items-center">
-                                <img src={d.img} alt={d.naam} className="h-44 w-44 rounded-full" />
-                            </div>
+            {/* Slider Section */}
+            <aside className="relative  text-black rounded-lg sm:mx-16 mx-2 sm:py-16 mb-52">
+                <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
+                    {/* Container for centering slider */}
+                    <div className="absolute inset-0 pt-16 mt-20 flex justify-center items-center">
+                        <div className="w-3/4">
+                            <Slider {...settings}>
+                                {data.map((d, index) => (
+                                    <div key={index} className=" h-full text-black rounded-xl shadow-lg my-8 bg-white">
+                                        <div className="rounded-t-xl h-56 bg-indigo-500 flex justify-center items-center">
+                                            <img src={d.img} alt={d.naam} className="h-44 w-44 rounded-full" />
+                                        </div>
 
-                            <div className="flex flex-col justify-center items-center gap-4 p-4">
-                                <p className="text-xl font-semibold">{d.naam}</p>
-                                <p className="text-gray-700">{d.review}</p>
-                            </div>
+                                        <div className="flex flex-col justify-center items-center gap-4 p-4">
+                                            <p className="text-xl font-semibold">{d.naam}</p>
+                                            <p className="text-gray-700">{d.review}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </Slider>
                         </div>
-                    ))}
-                </Slider>
-            </div>
-        </div>
-    </div>
+                    </div>
+                </div>
 
-    {/* Background image */}
-    <div className="absolute inset-0 w-full sm:pt-1 pt-12 h-full">
-        <img className="w-full h-full object-cover" src="/assets/homepic3.png" alt="image3" />
-    </div>
-</aside>
-
-
+                {/* Background image */}
+                <div className="absolute inset-0 w-full sm:pt-1 pt-12 h-auto">
+                    <img className="w-full h-[1200px] md:h-auto object-cover" src="/assets/homepic3.png" alt="image3" />
+                </div>
+            </aside>
         </div>
     );
 }
