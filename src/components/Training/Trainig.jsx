@@ -20,7 +20,7 @@ function Trainig() {
       <div className='flex flex-col md:flex-row text-white mx-10 mb-10 space-y-6 md:space-y-0 md:space-x-6'>
         {/* Card 1 */}
         <div className='flex flex-col items-center text-center bg-white hover:bg-blue-950 hover:text-white  shadow-lg rounded-lg p-6'>
-          <img className='' src="assets/whyjoin1.jpg" alt="training.jpg" />
+          <img className='' src="assets/consult.png" alt="training.jpg" />
           <span className='bg-blue-900 p-4'>
             <h1 className='text-2xl font-bold'>Fitness Consultation</h1>
             <p>Gain confidence for your fitness journey with our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan.</p>
@@ -29,18 +29,18 @@ function Trainig() {
 
         {/* Card 2 */}
         <div className='flex flex-col items-center text-center  bg-white hover:bg-blue-950 hover:text-white  shadow-lg rounded-lg p-6'>
-          <img className='' src="assets/whyjoin1.jpg" alt="training.jpg" />
+          <img className='' src="assets/gymgroup.jpg" alt="training.jpg" />
           <span className='bg-blue-900 p-4'>
-            <h1 className='text-2xl font-bold'>Fitness Consultation</h1>
+            <h1 className='text-2xl font-bold'>Group Fitness</h1>
             <p>Gain confidence for your fitness journey with our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan.</p>
           </span>
         </div>
 
         {/* Card 3 */}
         <div className='flex flex-col items-center text-center bg-white hover:bg-blue-950 hover:text-white  shadow-lg rounded-lg p-6'>
-          <img className='' src="assets/whyjoin1.jpg" alt="training.jpg" />
+          <img className='' src="assets/personalise.jpg" alt="training.jpg" />
           <span className='bg-blue-900 p-4'>
-            <h1 className='text-2xl font-bold'>Fitness Consultation</h1>
+            <h1 className='text-2xl font-bold'>Personalized Training</h1>
             <p>Gain confidence for your fitness journey with our personalized fitness consultation. Our expert trainers will assess and evaluate your current fitness level and suggest a customized plan.</p>
           </span>
         </div>

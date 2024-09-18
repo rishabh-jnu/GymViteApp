@@ -3,7 +3,7 @@ import React from 'react';
 function Whyjoin() {
   return (
     <div className="mx-auto w-full max-w-full">
-      <aside className="relative overflow-hidden text-white rounded-lg sm:mx-16 mx-2 sm:py-16">
+      <aside className="relative overflow-hidden text-white sm:mx-16 mx-2 sm:py-16">
         <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center space-y-8 text-center">
             {/* Original text content */}
@@ -34,7 +34,7 @@ function Whyjoin() {
         <section className="grid grid-cols-1 sm:grid-cols-2 gap-6 p-4 mx-20">
           {/* First card */}
           <div className="bg-white hover:bg-blue-950 hover:text-white shadow-lg rounded-lg p-6 text-center">
-            <img className=" mx-auto mb-4" src="assets/whyjoin1.jpg" alt="support.jpg" />
+            <img className=" mx-auto mb-4" src="assets/support.jpg" alt="support.jpg" />
             <h1 className="text-xl font-bold mb-2">Support</h1>
             <p className="text-1xl">
               Rainbow Gym Center offers comprehensive support to all gym members. From personalized
@@ -55,7 +55,7 @@ function Whyjoin() {
 
           {/* Third card */}
           <div className="bg-white hover:bg-blue-950 hover:text-white  shadow-lg rounded-lg p-6 text-center">
-            <img className=" mx-auto mb-4" src="assets/whyjoin1.jpg" alt="support.jpg" />
+            <img className=" mx-auto mb-4" src="assets/community.png" alt="support.jpg" />
             <h1 className="text-xl font-bold mb-2">Community</h1>
             <p className="text-1xl">
               Join a vibrant community of fitness enthusiasts at Rainbow Gym Center. Our welcoming
@@ -65,7 +65,7 @@ function Whyjoin() {
 
           {/* Fourth card */}
           <div className="bg-white hover:bg-blue-950 hover:text-white  shadow-lg rounded-lg p-6 text-center">
-            <img className="mx-auto mb-4" src="assets/whyjoin1.jpg" alt="support.jpg" />
+            <img className="mx-auto mb-4" src="assets/tools.jpg" alt="support.jpg" />
             <h1 className="text-xl font-bold mb-2">Advanced Equipment</h1>
             <p className="text-1xl">
               Rainbow Gym Center provides cutting-edge fitness equipment. Whether your focus is

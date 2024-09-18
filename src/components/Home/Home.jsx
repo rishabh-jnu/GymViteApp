@@ -55,15 +55,13 @@ export default function Home() {
     return (
         <div className="mx-auto w-full max-w-full">
             {/* First Image Section */}
-            <aside className="relative overflow-hidden text-black sm:mx-16 mx-2 sm:py-16">
-                <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
-                    <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto"></div>
-                </div>
-
-                <div className="absolute inset-0 w-full sm:pt-1 h-full">
-                    <img className="w-full" src="/assets/homepic1st.jpg" alt="image1" />
+            <aside className="relative overflow-hidden text-black sm:mx-16 mx-2 sm:h-screen min-h-[400px]">
+                <div className="absolute inset-0 w-full h-full">
+                    <img className="object-cover w-full h-full" src="/assets/homepic1st.jpg" alt="image1" />
                 </div>
             </aside>
+
+
 
             {/* YouTube Section */}
             <aside className="relative overflow-hidden text-black sm:mx-16 mx-2 sm:py-16">
@@ -109,7 +107,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="absolute inset-0 w-full sm:pt-1 pt-12 h-full">
+                <div className="absolute inset-0 w-full sm:pt-1 pt-12 h-full ">
                     <img className="w-full" src="/assets/homepic2.jpg" alt="image2" />
                 </div>
             </aside>
@@ -139,8 +137,8 @@ export default function Home() {
                 </div>
 
                 {/* Background image */}
-                <div className="absolute inset-0 w-full sm:pt-1 pt-12 h-auto">
-                    <img className="w-full h-[1200px] md:h-auto object-cover" src="/assets/homepic3.png" alt="image3" />
+                <div className="absolute inset-0 w-full sm:pt-1 pt-12 h-[400px]">
+                    <img className="w-full h-[400px] md:h-auto object-cover" src="/assets/homepic3.png" alt="image3" />
                 </div>
             </aside>
         </div>
