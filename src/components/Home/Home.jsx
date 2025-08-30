@@ -12,12 +12,12 @@ export default function Home() {
             review: 'Lorem ipsum dolor sit, amet consectetur adipisicing el',
         },
         {
-            naam: 'Hello',
+            naam: 'Prince',
             img: '/assets/homepic2.jpg',
             review: 'Lorem ipsum dolor sit, amet consectetur adipisicing el',
         },
         {
-            naam: 'World',
+            naam: 'Guddu Yadav',
             img: '/assets/gymlogo.png',
             review: 'Lorem ipsum dolor sit, amet consectetur adipisicing el',
         },
