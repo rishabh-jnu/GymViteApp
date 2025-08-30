@@ -1,5 +1,7 @@
 # React + Vite
 
+This is the Gym App website for the local gym in my Hometown.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
